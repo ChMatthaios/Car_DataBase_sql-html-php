@@ -1,0 +1,19 @@
+table#cartable {
+    border-collapse: collapse;   
+}
+#cartable tr {
+    background-color: #eee;
+    border-top: 1px solid #fff;
+}
+#cartable tr:hover {
+    background-color: #ccc;
+}
+#cartable th {
+    background-color: #fff;
+}
+#cartable th, #cartable td {
+    padding: 3px 5px;
+}
+#cartable td:hover {
+    cursor: pointer;
+}
